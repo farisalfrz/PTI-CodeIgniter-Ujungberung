@@ -332,8 +332,7 @@
 
                             <div class="tab-content no-padding">
                                 <!-- Morris chart - Sales -->
-                                <div class="chart tab-pane active" id="alamat-kantor"
-                                    style="position: relative; height: 250px;">
+                                <div class="chart tab-pane active" id="alamat-kantor" style="position: relative; height: 250px;">
                                     <br />
 
                                     <canvas id="myChart"></canvas>
@@ -352,15 +351,14 @@
 
                                 <li class="active"><a href="#alamat-kantor" data-toggle="tab">Kantor</a></li>
 
-                                <li><a href="#alamat-pabrik" data- toggle="tab">Pabrik</a></li>
+                                <li><a href="#alamat-pabrik" data-toggle="tab">Pabrik</a></li>
 
                                 <li class="pull-left header"><i class="fa fa-inbox"></i> Kontak</li>
                             </ul>
 
                             <div class="tab-content no-padding">
                                 <!-- Morris chart - Sales -->
-                                <div class="chart tab-pane active" id="alamat-kantor"
-                                    style="position: relative; height: 250px;">
+                                <div class="chart tab-pane active" id="alamat-kantor" style="position: relative; height: 250px;">
                                     <br />
 
                                     <div class="col-md-1"></div>
@@ -369,8 +367,7 @@
                                         foreach ($user1->result() as $row) { ?>
                                             <address>
 
-                                                <strong>PT Ujung Ber-
-                                                    ung (Office)</strong><br>
+                                                <strong>PT Ujung Berung (Office)</strong><br>
 
                                                 <?php echo $row->user_alamat; ?><br>
                                                 <?php echo $row->user_kota; ?>     <?php echo $row->user_kodepos; ?><br>
@@ -397,8 +394,7 @@
                                         <?php
                                         foreach ($user2->result() as $row) { ?>
                                             <address>
-                                                <strong>PT Ujung
-                                                    Berung (Factory)</strong><br>
+                                                <strong>PT Ujung Berung (Factory)</strong><br>
                                                 <?php echo $row->user_alamat; ?><br>
                                                 <?php echo $row->user_kota; ?>     <?php echo $row->user_kodepos; ?><br>
 
@@ -428,8 +424,7 @@
     <script>
         $(document).ready(function () {
 
-            var ctx = docu -
-                ment.getElementById('myChart').getContext('2d');
+            var ctx = document.getElementById('myChart').getContext('2d');
 
             var chart = new Chart(ctx, {
                 // The type of chart we want to create
