@@ -1,5 +1,4 @@
-<?php if (!defined('BASEPATH'))
-    exit('No direct script access allowed');
+<?php if (!defined('BASEPATH')) exit('No direct script access allowed');
 class Usermodel extends CI_Model
 {
     public function get_menu_for_level($user_level)
